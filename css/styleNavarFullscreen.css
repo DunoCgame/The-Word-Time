@@ -1,0 +1,118 @@
+@media(min-width:900px) and (max-width: 1600px),
+(min-width:480px) and (max-width: 699px) and (orientation:landscape),
+(min-width:700px) and (max-width: 900px) and (orientation:landscape)  {
+	.Open, .closebtn{
+		display:none;
+	}
+}
+
+
+
+
+
+
+@media(min-width:300px) and (max-width: 760px) and (orientation:portrait), 
+(min-width:760px) and (max-width: 1023px) and (orientation:portrait),
+(min-width:480px) and (max-width: 699px) and (orientation:landscape),
+(min-width:700px) and (max-width: 900px) and (orientation:landscape){
+
+
+
+.Header{
+	 
+	height:30px;
+	 background-image: url("../logo/icon.png"); 
+	background-repeat: no-repeat;
+	background-position:left; 
+	background-repeat: no-repeat; 
+	background-size: 80px 80px;
+	
+
+	
+	
+}
+
+
+.Nabar .navbar-icon{
+	
+	display:none;
+}
+
+.Colapse{
+	
+	margin-top:150px;
+	 background-image: url("../logo/thewordTimelogo-Clara.png"); 
+	background-repeat: no-repeat;
+	background-position:center; 
+	background-size: 330px 300px;
+	/* opacity: 0.5; */
+	/* background:red; */
+	/* height:300px; */
+}
+
+ .navbar-icon img{
+margin:20px;
+display:table;	
+}
+
+.navbar-icon>.titelweb{
+	color:black;
+	display: block;
+	position: absolute;
+    top:7%;
+	padding:8%;
+
+}
+
+
+.Open, .closebtn{
+		display:table;
+	}
+	
+	
+.Open{
+	font-size:20px;
+	cursor:pointer;
+	position:absolute;
+	top: 15px;
+	right: 45px;
+}
+
+
+
+.Nabar{
+ 
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background:white;
+  overflow-x: hidden;
+  transition: 0.5s; 
+  
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.Nabar .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  list-style:none;
+  text-decoration:none;
+  color:black;
+  font-size:66px;
+
+/* border-radius: 200px 200px 200px 200px; */
+/* -moz-border-radius: 200px 200px 200px 200px; */
+/* -webkit-border-radius: 200px 200px 200px 200px; */
+/* border: 1px solid #000000; */
+
+}
+
+}
+
+
+

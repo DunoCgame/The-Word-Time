@@ -1,0 +1,632 @@
+/*
+Theme Name: TheWordTime
+Theme URI: #
+Author: Luis E Duno C
+Author URI: #
+Description: TheWordTime tema para wordpress creado para usarse en el sitio web TheWordTime
+Version: 1.0
+License: 
+License URI: 
+
+
+*/
+
+
+:root{
+	
+/*color de fondo*/
+--fondo:grey; 
+/*color de fondo*/
+/*color de fondo Nav*/
+--fondoNav:#ffff; 
+/*color de fondo Nav*/
+/*color de fondo main*/
+--fondoMain:#ffff; 
+/*color de fondo main*/
+/*color de fondo sectionarticulos*/
+--fondosection:gray;
+/*color de fondo articulos*/
+/*color de fondo  textarticulos*/
+--fondotextArticulos: rgba(89, 89, 89,0.5);
+/*color de fondo textarticulos*/
+
+/*color de fondo articulos*/
+--fondoArticulos:#ffff;
+/*color de fondo articulos*/
+/*color de fondo Aside*/
+--fondoAside:#ffff; 
+/*color de fondo Aside*/
+/*color de fondo Footer*/
+--fondoFooter:#ffff; 
+/*color de fondo footer*/
+/*color de texto*/
+--txtcolor:black;
+/*color de texto*/
+/*tipo texto titulos y enlaces*/
+--estiloTextTitulos: Berkshire Swash, cursive;	
+/*tipo texto titulos*/
+/*tipo texto parafo y contenido*/
+--estiloTextContenido:Merriweather, serif;	
+/* font-family: 'Merriweather', serif; */
+/*tipo texto titulos*/
+/*color de bordes*/
+--bordescolor:rgba(115, 115, 115, 0.5);
+--bordescolorAside:rgba(115, 115, 115, 0.1);
+--bordescolorArticulos:rgba(115, 115, 115, 0.6);
+--bordescolorNavIMG:rgba(115, 115, 115, 1);
+/*color de bordes*/
+/*BARA SOCIAL*/
+--Socialcolor:black;
+/*twitter*/
+--Socialcolorfondotwitter:#00abf0;
+--Socialcolortwitter:#fff;
+/*facebook*/
+--Socialcolorfondofacebook:#3b5998;
+--Socialcolorfacebook:#fff;
+/*instagram*/
+--Socialcolorfondoinstagram:linear-gradient(to bottom right, #993366 35%, #ffff00 89%);
+--Socialcolorinstagram:#fff;
+/*telegram*/
+--Socialcolorfondotelegram:#00abf0;
+--Socialcolortelegram:#fff;
+/*blogger:*/
+--Socialcolorfondoblogger:#ffb900;
+--Socialcolorblogger:#fff;
+/*Patreon*/
+--SocialcolorfondoPatreon:#ffa31a;
+--SocialcolorPatreon:#fff;
+/*youtube*/
+--Socialcolorfondoyoutube:#e60000;
+--Socialcoloryoutube:#fff;
+/*BARA SOCIAL*/
+
+}
+/*Variables */
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+.Body{
+	background:var(--fondo); 
+}
+
+.Container{
+	background:var(--fondo); 
+width:100%;
+/* max-width:1000px; */
+overflow: hidden;
+/* margin:1px 1px; */
+text-align:justify;
+
+}
+.ContainerPage{
+	background:var(--fondo); 
+width:100%;
+/* max-width:1000px; */
+overflow: hidden;
+/* margin:1px 1px; */
+text-align:justify;
+
+}
+
+.ContainerSingle{
+	background:var(--fondo); 
+width:100%;
+/* max-width:1000px; */
+overflow: hidden;
+/* margin:1px 1px; */
+text-align:justify;
+
+}
+.ContainerItems{
+	background:var(--fondo); 
+width:100%;
+/* max-width:1000px; */
+overflow: hidden;
+/* margin:1px 1px; */
+text-align:justify;
+
+}
+
+
+
+
+/* .Header .Main .Aside .Footer{ */
+	/* display:block; */
+	
+/* } */
+
+/*Header*/
+.Header{
+	background:var(--fondoNav);
+	padding:15px;
+height:auto;
+	width:100%;
+	margin-bottom:1px;
+	
+}
+/*Header*/
+
+
+/*Nav*/
+
+.Nabar .Colapse{
+	
+	display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+
+.Nabar .navbar-icon img{
+	width:180px;
+	height:120px;
+	margin-top:-23px;
+	/* box-sizing:border-box; */
+	/* margin-bottom:1px; */
+	
+}
+
+.Nabar .navbar-icon img{
+
+float:left;	
+	
+}
+.Nabar .navbar-icon img:hover{
+
+/* border-top:3px solid var(--bordescolor); */
+border-bottom:3px solid var(--bordescolor);
+/* border-left:3px solid var(--bordescolor); */
+/* border-right:3px solid var(--bordescolor); */
+border-radius:50px;
+	
+}
+
+
+.Nabar  .navbar-icon img{
+	float:left;	
+	
+}
+
+
+.Nabar>.Colapse>ul>li {
+  float: left;
+}
+
+
+
+
+
+
+
+/*Nav*/
+
+/*Barra Social*/
+
+
+
+.BarraSocial  li a{
+  /* display: inline-block; */
+  color: var(--Socialcolor); 
+  text-decoration: none;
+   -webkit-transition: 500ms ease;
+  -o-transition:all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.BarraSocial  li .icon-twitter:hover{
+background:var(--Socialcolorfondotwitter);
+border-radius:10px;
+padding: 10px 15px;
+max-width:55px;
+  color: var(--Socialcolortwitter);
+  
+  
+}
+.BarraSocial li .icon-facebook:hover{
+ background:var(--Socialcolorfondofacebook);
+ border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+   color:var(--Socialcolorfacebook);
+ }
+
+
+.BarraSocial  li  .icon-instagram:hover{
+background:var(--Socialcolorfondoinstagram);
+border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+    color: var(--Socialcolorinstagram);
+   
+   } 
+   
+  .BarraSocial  li  .icon-telegram:hover{
+background:var(--Socialcolorfondotelegram);
+border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+   color: var(--Socialcolortelegram);}
+   
+.BarraSocial  li  .icon-blogger:hover{
+background:var(--Socialcolorfondoblogger);
+border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+   color: var(--Socialcolorblogger);
+   } 
+
+.BarraSocial  li  .icon-youtube:hover{
+background:var(--Socialcolorfondoyoutube);
+border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+   color: var(--Socialcoloryoutube);
+   } 
+
+.BarraSocial li  .icon-Patreon:hover{
+background:var(--SocialcolorfondoPatreon);
+border-radius:10px;
+ padding: 10px 15px;
+ max-width:55px;
+   color: var(--SocialcolorPatreon);
+   }
+/* Barra Social */
+
+/* SlideShow */
+
+.mySlides {display: none;}
+img {vertical-align: middle;
+
+height:320px;
+}
+
+/* Slideshow container */
+
+
+/* Caption text */
+.text {
+   color: #f2f2f2;
+  font-size:30px;
+  padding: 12px 12px;
+  position:absolute;
+  top: 420px;
+/* font-family:var(--estiloTextTitulos); */
+    /* bottom: 10px; */
+  width: 97%;
+  text-align:center;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  margin:30px;
+ color:#f2f2f2; 
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  user-select: none;
+  background:rgba(89, 89, 89,0.3);
+   border-radius: 70px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 70px;
+  
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*SlideShow*/
+
+/*Conntenedor-Article1*/
+/*Conntenedor-Article1*/
+/*Article1*/
+
+.Articulos1 h1{
+	
+font-family:var(--estiloTextTitulos);	}
+
+.Articulos1, .imgArticle1{
+	
+display: block;
+position: relative;
+object-fit:cover;
+}
+.imgArticle1{
+width:100%;
+	height:100%;
+	
+}
+.Articletext{
+	background-color:var(--fondotextArticulos);
+  display: block;
+  position:absolute;
+  bottom: -2px;
+  left: 0;
+  padding: 5px;
+  width:95%;
+  color:white;
+  margin:10px;
+  	font-family:var(--estiloTextContenido);	
+  
+	
+	
+}
+/* Article1 */
+/* Conntenedor-Article1 */
+
+/* Main */
+/* Article2 */
+
+
+
+.Main .Articulos2 h1{
+	font-family:  var(--estiloTextTitulos);	
+	margin-bottom:13px;
+	font-size:17px;
+	float:center;
+}
+
+ .Main .Articulos2  h1 .link{
+	color:var(--estiloText);
+	text-decoration:none;
+	padding-top:50px;
+	}
+
+.Main  .Articulos2 h1 .link:hover{
+	
+color:gray;
+ 
+}
+.Main .Articulos2 p{
+	text-align: justify;
+	font-family:var(--estiloTextContenido);	
+	color:var(--estiloText);
+}
+.Main .Articulos2{
+	background:var(--fondoArticulos);
+	padding:10px 10px;
+	margin-bottom:1px;
+	height:200px;
+}
+.Main .Articulos2 .imgArticle2{ 
+
+
+width:50%;
+height:150px;
+object-fit:cover;
+
+	max-width:100%;
+	border-radius:6px;
+	margin:5px;
+border-bottom:2px solid var(--bordescolorNavIMG);
+border-top:2px solid var(--bordescolorNavIMG);
+border-left:2px solid var(--bordescolorNavIMG);
+border-right:2px solid var(--bordescolorNavIMG);
+float:left;
+
+ }
+ 
+ 
+
+/*Article2*/
+/*Paginacuion*/
+.ContainerPaginacion{
+	
+	background:var(--fondoNav);
+	
+}
+/*Paginacuion*/
+/*Main*/
+
+
+
+
+/*Aside*/
+.Aside{
+	
+	background:var(--fondoAside);
+	margin-left:1px;
+	padding:10px;
+	
+}
+
+
+.Aside p{
+	font-family:var(--estiloTextContenido);	
+	
+color:var(--estiloText);
+
+
+}
+.Aside ul{
+	list-style:none;
+}
+.Aside ul li a{
+
+	text-decoration:none;
+	color:var(--estiloText);
+	list-style:none;
+}
+
+ .Aside h1{
+	
+	font-family:var(--estiloTextTitulos);	
+}
+
+/*Aside*/
+
+/*Footer*/
+.Footer{
+	 clear:both;
+
+background:var(--fondoFooter);
+padding:10px;
+margin-top:5px;
+}
+/*Footer*/
+
+/*
+
+
+PAGINA SINGLE
+
+
+*/
+
+
+
+.Main .Articulos2Single h1{
+	font-family:  var(--estiloTextTitulos);	
+margin-bottom:13px;
+font-size:19px;
+float:center;
+}
+
+ .Main .Articulos2Single  h1 .link{
+	color:var(--estiloText);
+text-decoration:none;
+padding-top:50px;
+}
+
+.Main  .Articulos2Single h1 .link:hover{
+	
+color:gray;
+ 
+}
+.Main .Articulos2Single p{
+	text-align: justify;
+	font-family:var(--estiloTextContenido);	
+	color:var(--estiloText);
+}
+
+.Main .Articulos2Single{
+	background:var(--fondoArticulos);
+	padding:10px 10px;
+	margin-bottom:1px;
+	height:240px;
+	
+}
+
+.Main >.Articulos2Single >.imgArticleSingle{ 
+object-fit: cover;
+width:50%;
+height:200px;
+	max-width:100%;
+	border-radius:6px;
+	margin:5px;
+border-bottom:2px solid var(--bordescolorNavIMG);
+border-top:2px solid var(--bordescolorNavIMG);
+border-left:2px solid var(--bordescolorNavIMG);
+border-right:2px solid var(--bordescolorNavIMG);
+float:left;
+
+ }
+
+
+
+
+/*
+
+
+PAGINA SINGLE
+
+
+*/
+
+/*Pagina PAGE*/
+
+
+.Main .ArticulosPage{
+	background:var(--fondoArticulos);
+	padding:20px;
+	margin-top:2px;
+}
+
+.Main >.ArticulosPage >.imgArticlePage{ 
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top:10px;
+width:66%;
+height:220px;
+object-fit:cover;
+
+	max-width:100%;
+	border-radius:6px;
+border-bottom:2px solid var(--bordescolorNavIMG);
+border-top:2px solid var(--bordescolorNavIMG);
+border-left:2px solid var(--bordescolorNavIMG);
+border-right:2px solid var(--bordescolorNavIMG);
+
+
+ }
+ .Main .ArticulosPage  h1{
+font-family:  var(--estiloTextTitulos);	
+margin-bottom:16px;
+font-size:30px;
+text-align:center;
+}
+
+ .Main .ArticulosPage   h1 .link{
+color:var(--estiloText);
+text-decoration:none;
+padding-top:50px;
+}
+
+.Main  .ArticulosPage  h1 .link:hover{
+	
+color:gray;
+ 
+}
+.Main .ArticulosPage  p{
+	
+	text-align: justify;
+	font-family:var(--estiloTextContenido);	
+	color:var(--estiloText);
+	margin-top:15px;
+	font-size:14px;
+	padding:10px 5px;
+	text-indent: 20px;
+	line-height: 1.5;
+}
+/*Pagina PAGE*/
+
+/*OPCIONES ITEMS*/
+
+
+/*OPCIONES ITEMS*/

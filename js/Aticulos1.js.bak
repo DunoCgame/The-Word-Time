@@ -1,0 +1,16 @@
+// alert("Ativo-1");
+
+
+ // var color = document.getElementsByClassName("Articulos1")[2].style.color = "pink";
+ var ArticulosImpar = document.getElementsByClassName("Articulos1");
+ 
+ // console.log("Exiten",ArticulosImpar.length);
+ 
+ 
+ if(ArticulosImpar.length%2==1){
+	
+	 ArticulosImpar[ArticulosImpar.length-1].style.width = "100%";
+	 ArticulosImpar[ArticulosImpar.length-1].style.height = "250px";
+	  // ArticulosImpar[ArticulosImpar.length-1].style.grid-column="1 / span 2";
+	 
+ }
