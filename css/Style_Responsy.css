@@ -177,20 +177,7 @@ overflow: hidden;
 
 /*EFECTO SCROLL*//*EFECTO SCROLL*//*EFECTO SCROLL*//*EFECTO SCROLL*/
 @media(min-width:900px) and (max-width: 1600px) and (orientation:landscape) , (min-width:1600px) and (max-width: 2600px) and (orientation:portrait){
-/* elementos de Youtube */
-.suscriptYOUTUBEpequeno{
-display:none;	
-}
-/* elementos de Youtube */
-/* elementos de witter */
-.liketwitterPequeño{
-display:none;	
-}
 
-.twittertimelineTabletaPortrait{
-display:none;		
-}
-/* elementos de witter */
 
 
 /*Header*/ /*Header*/ /*Header*/
@@ -814,28 +801,7 @@ background:grey;
 /*landscape--Horizontal*//*landscape--Horizontal*//*landscape--Horizontal*/
 /*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*/
 @media(min-width:700px) and (max-width: 900px) and (orientation:landscape){
-/* elementos de Youtube */
-.suscriptYOUTUBEgrande{
-display:none;	
-}
-.suscriptYOUTUBEpequeno{
-	display:table;	
-	
-}
-/* elementos de Youtube */
-/* elementos de witter */
-.liketwitterGrande{
-display:none;	
-}
 
-.twittertimeline{
-	display:none;	
-}
-.twittertimelineTabletaPortrait{
-display:none;		
-}
-
-/* elementos de witter */
 
 
 .Header{
@@ -1478,20 +1444,6 @@ background:grey;
 /*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*//*Telefonos*/
 @media(min-width:480px) and (max-width: 699px) and (orientation:landscape){
 
-/* elementos de Youtube */
-.suscriptYOUTUBEpequeno{
-display:none;	
-}
-/* elementos de Youtube */
-/* elementos de witter */
-.liketwitterPequeño{
-display:none;	
-}
-
-.twittertimelineTabletaPortrait{
-display:none;		
-}
-/* elementos de witter */
 
 
 .Header{
@@ -2806,25 +2758,6 @@ background:grey;
 
 
 /*******404**************/
-/* elementos de Youtube */
-.suscriptYOUTUBEpequeno{
-display:none;	
-}
-/* elementos de Youtube */
-/* elementos de witter */
-.liketwitterPequeño{
-display:none;	
-}
-
-.twittertimeline{
-display:none;		
-}
-
-.twittertimelineTabletaPortrait{
-display:table;		
-}
-
-/* elementos de witter */
 
 .Header{
 	background:var(--fondoNav);
