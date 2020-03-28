@@ -13,7 +13,7 @@ function showSlides() {
 	
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length){slideIndex = 1}    
 
   slides[slideIndex-1].style.display = "block";  
 
@@ -27,8 +27,10 @@ var Nimg=0;
 function Slide(n){
  
  var slides = document.getElementsByClassName("mySlides");
+ 
   if (n >= slides.length) {Nimg = 0}    
   if (n < 0) {Nimg = slides.length}
+  
 	  for(var i=0; i<slides.length ;i++){
 	
 	  slides[i].style.display = "none";
