@@ -39,3 +39,21 @@ for (var i = 0; i < btns.length; i++) {
   });
   
 }
+
+//paginacion
+
+var Paginacion=document.getElementById("Contenedor-Paginacion");
+
+var btnpaginacion = Paginacion.getElementsByClassName("item-Paginacion");
+
+for (var i = 0; i < btnpaginacion.length; i++) {
+	
+  btnpaginacion[i].addEventListener("click", function() {
+	
+	  var currentpaginacion = document.getElementsByClassName("active-Paginacion");
+	  currentpaginacion[0].className = currentpaginacion[0].className.replace(" active-Paginacion", "");
+	  this.className += " active-Paginacion";
+ 
+ });
+  
+}

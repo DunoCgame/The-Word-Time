@@ -7,10 +7,7 @@ function showSlides() {
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
-	
-	 // console.log("slideIndex",slideIndex);
-	  // console.log("slides.length",slides.length);
-	
+
   }
   slideIndex++;
   if (slideIndex > slides.length){slideIndex = 1}    
@@ -19,7 +16,6 @@ function showSlides() {
 
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
-
 
 /*SlideShow manual*/
 
@@ -36,10 +32,6 @@ function Slide(n){
 	  slides[i].style.display = "none";
 	   
 	  }
-	  // console.log("i",Nimg);
-	  // console.log("slides.length",slides.length);
-	
-
 	   slides[Nimg].style.display = "block"; 
 	   
 	
