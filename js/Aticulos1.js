@@ -2,7 +2,8 @@
  var TextContener = document.getElementsByClassName("Articletext");
  
 
- 
+  
+  
  if(ArticulosImpar.length%2==1){
 	
 	 ArticulosImpar[ArticulosImpar.length-1].style.width = "100%";
