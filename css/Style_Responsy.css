@@ -733,9 +733,6 @@ background:grey;
 /*landscape--Horizontal*//*landscape--Horizontal*//*landscape--Horizontal*/
 /*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*//*Tabletas*/
 @media(min-width:700px) and (max-width: 900px) and (orientation:landscape){
-.Body{
-	background:red; 
-}
 
 
 .Header{
@@ -1869,7 +1866,7 @@ html {
      height:100%;
 }
 body {
-    background-color:green;
+   
     height: 100%;
    
 }
@@ -2423,7 +2420,7 @@ html {
      height:100%;
 }
 body {
-    background-color:green;
+
     height: 100%;
     /* margin-top:0px; */
 }
